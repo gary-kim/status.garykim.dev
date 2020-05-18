@@ -1,0 +1,77 @@
+baseURL: https://status.garykim.dev
+langaugeCode: en-US
+title: garykim.dev Status Page
+buildFuture: true
+
+theme: cstate
+preserveTaxonomyNames: true
+
+taxonomies:
+  affected: affected
+
+canonifyurls: true
+enableRobotsTXT: true
+enableGitInfo: true
+
+outputs:
+  page:
+    - html
+    - json
+  section:
+    - html
+    - json
+    - rss
+  home:
+    - html
+    - json
+    - rss
+    - svg
+
+outputFormats:
+  svg:
+    isPlainText: true
+    mediaType: image/svg+xml
+
+copyright: '<p>© 2020 Gary Kim &lt;<a href="mailto:gary@garykim.dev" rel="nofollow">gary@garykim.dev</a>&gt;</p>'
+
+params:
+  categories:
+    - name: Gamma Server
+      description: Services hosted on Gamma server
+    - name: Sigma Server
+      description: Services hosted on Sigma server
+  systems:
+    - name: "Minecraft: Turtle Server"
+      category: Gamma Server
+      description: "Minecraft: Turtle Server (mc.garykim.dev)"
+    - name: "Proprietary Drone CI for GitHub"
+      category: Gamma Server
+      description: "Proprietary Drone CI instance connected to GitHub (https://ghdrone.garykim.dev)"
+    - name: "garykim.dev Matrix Homeserver"
+      category: Gamma Server
+      description: "garykim.dev Matrix Homeserver (https://matrix.garyki.dev)"
+    - name: "Gary Kim: Cloud"
+      category: Sigma Server
+      description: "Nextcloud (https://cloud.garykim.dev)"
+  dateFormat: 2006-01-02T15:04:05Z07:00
+  shortDateForamt: 2006-01-02T15:04:05Z07:00
+
+  useLargeHeaderDesign: false
+  useLogo: false
+
+  description: Find out if there is any known downtime for garykim.dev services.
+
+  disableComplexCalulations: false
+
+  incidentPostsPerPage: 10
+
+  brand: "#0a0c0f"
+  ok: "#008000"
+  disrupted: "#cc4400"
+  down: "#e60000"
+  notice: "#24478f"
+
+  alwaysKeepBrandColor: true
+
+  headerTextColor: white
+
