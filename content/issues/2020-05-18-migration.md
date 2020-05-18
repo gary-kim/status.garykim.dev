@@ -10,6 +10,6 @@ section: issue
 informational: true
 ---
 
-Minecraft: Turtle Server will be migrated to a new server. All data including everything stored in the SQL database will be moved.
+**Planned migration on May 20th will result in some downtime:** Minecraft: Turtle Server will be migrated to a new server. All data including everything stored in the SQL database will be moved.
 
 **Expected downtime is around 45 minutes.**
