@@ -49,7 +49,16 @@ params:
       description: "Proprietary Drone CI instance connected to GitHub (https://ghdrone.garykim.dev)"
     - name: "garykim.dev Matrix Homeserver"
       category: Gamma Server
-      description: "garykim.dev Matrix Homeserver (https://matrix.garyki.dev)"
+      description: "garykim.dev Matrix Homeserver (https://matrix.garykim.dev)"
+    - name: "STUN/TURN Server"
+      category: Gamma Server
+      description: "STUN/TURN Server used by various services (turn.garykim.dev)"
+    - name: "Grafana"
+      category: Gamma Server
+      description: "Grafana instance connected to various services (https://grafana.garykim.dev)"
+    - name: "LibreOffice Online"
+      category: Gamma Server
+      description: "LibreOffice Online server used with various services. (https://office.garykim.dev)"
     - name: "Gary Kim: Cloud"
       category: Sigma Server
       description: "Nextcloud (https://cloud.garykim.dev)"
@@ -74,4 +83,6 @@ params:
   alwaysKeepBrandColor: true
 
   headerTextColor: white
+
+  enableCustomHTML: true
 
