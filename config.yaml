@@ -84,5 +84,7 @@ params:
 
   headerTextColor: white
 
+  googleAnalytics: UA-00000000-1
+
   enableCustomHTML: true
 
