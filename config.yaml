@@ -59,6 +59,9 @@ params:
     - name: "LibreOffice Online"
       category: Gamma Server
       description: "LibreOffice Online server used with various services. (https://office.garykim.dev)"
+    - name: "Nextcloud Talk High Performance Backend"
+      category: Gamma Server
+      description: "Nextcloud Talk HPB connected to multiple Nextcloud instances (spreedbackend.garykim.dev)"
     - name: "Gary Kim: Cloud"
       category: Sigma Server
       description: "Nextcloud (https://cloud.garykim.dev)"
