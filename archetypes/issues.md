@@ -1,11 +1,11 @@
 ---
-title: Issue
-date: 2020-01-01T00:00:00
+title: "Issue"
+date: "{{ dateFormat "2006-01-02T15:04:05Z07:00" now.Local }}"
 resolved: false
-resolvedWhen: 2020-01-01T00:00:00
+resolvedWhen: "{{ dateFormat "2006-01-02T15:04:05Z07:00" now.Local }}"
 severity: down
 affected:
-  - Important service
+  - "Important service"
 section: issue
 ---
 

@@ -47,6 +47,9 @@ params:
     - name: "Proprietary Drone CI for GitHub"
       category: Gamma Server
       description: "Proprietary Drone CI instance connected to GitHub (https://ghdrone.garykim.dev)"
+    - name: "Proprietary Drone CI for Personal Gitea Instance"
+      category: Gamma Server
+      description: "Proprietary Drone CI connected to personal Gitea instance (https://drone.garykim.dev)"
     - name: "garykim.dev Matrix Homeserver"
       category: Gamma Server
       description: "garykim.dev Matrix Homeserver (https://matrix.garykim.dev)"
