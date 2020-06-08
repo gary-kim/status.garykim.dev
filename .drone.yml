@@ -11,14 +11,51 @@ steps:
     pull: always
     commands:
       - make prod
-  - name: deploy-site
+  - name: prepare-deploy
+    image: docker:git
+    commands:
+      - mv ./public /status.garykim.dev/public
+      - mv ./scripts /status.garykim.dev/scripts
+      - git fetch origin
+      - git checkout gh-pages
+    volumes:
+      - name: TMP
+        path: /status.garykim.dev
+    when:
+      branch:
+        - master
+      event:
+        - push
+      repo:
+        - gary-kim/status.garykim.dev
+  - name: move-deploy
     image: garykim/rclone
     pull: always
-    environment:
-      RCLONE_CONFIG_PASS:
-        from_secret: rclone_config_pass
     commands:
-      - make deploy
+      - rclone sync /status.garykim.dev/public ./ --exclude '.git/**'
+    volumes:
+      - name: TMP
+        path: /status.garykim.dev
+    when:
+      branch:
+        - master
+      event:
+        - push
+      repo:
+        - gary-kim/status.garykim.dev
+  - name: push-deploy
+    image: docker:git
+    volumes:
+      - name: TMP
+        path: /status.garykim.dev
+    commands:
+      - git -c 'user.email=bot@garykim.dev' -c 'user.name=Gary Kim Bot' commit -m "Update Website" --amend
+      - git -c "credential.helper=/bin/sh /status.garykim.dev/scripts/gitcredentials.sh" push --force-with-lease
+    environment:
+      GIT_PASSWORD:
+        from_secret: GITHUB_TOKEN
+      GIT_USERNAME: gary-kim-bot
+      GIT_TERMINAL_PROMPT: 1
     when:
       branch:
         - master
@@ -33,3 +70,8 @@ trigger:
   event:
     - pull_request
     - push
+
+
+volumes:
+  - name: TMP
+    temp: {}
