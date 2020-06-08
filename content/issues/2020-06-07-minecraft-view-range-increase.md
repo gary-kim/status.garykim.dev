@@ -1,13 +1,12 @@
 ---
 title: "Minecraft: Turtle Server View Range Increase"
 date: "2020-06-08T12:00:00+08:00"
-resolved: false
-resolvedWhen: "2020-06-08T12:10:00+08:00"
+resolved: true
+resolvedWhen: "2020-06-08T12:03:00+08:00"
 severity: down
 affected:
   - "Minecraft: Turtle Server"
 section: issue
-informational: true
 ---
 
 The entity view range on **Minecraft: Turtle Server** is getting increased to the following:
