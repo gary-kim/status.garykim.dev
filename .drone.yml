@@ -15,9 +15,9 @@ steps:
     image: docker:git
     commands:
       - mv ./public /status.garykim.dev/public
-      - mv ./scripts /status.garykim.dev/scripts
-      - git fetch origin
-      - git checkout gh-pages
+      - cp -r ./scripts /status.garykim.dev/scripts
+      - git clone https://github.com/gary-kim/status.garykim.dev /status.garykim.dev/repo
+      - (cd /status.garykim.dev/repo && git checkout gh-pages)
     volumes:
       - name: TMP
         path: /status.garykim.dev
@@ -32,7 +32,7 @@ steps:
     image: garykim/rclone
     pull: always
     commands:
-      - rclone sync /status.garykim.dev/public ./ --exclude '.git/**'
+      - rclone sync /status.garykim.dev/public /status.garykim.dev/repo --exclude '.git/**'
     volumes:
       - name: TMP
         path: /status.garykim.dev
@@ -49,13 +49,16 @@ steps:
       - name: TMP
         path: /status.garykim.dev
     commands:
-      - git -c 'user.email=bot@garykim.dev' -c 'user.name=Gary Kim Bot' commit -m "Update Website" --amend
-      - git -c "credential.helper=/bin/sh /status.garykim.dev/scripts/gitcredentials.sh" push --force-with-lease
+      - cd /status.garykim.dev/repo
+      - git add -A
+      - GIT_COMMITTER_DATE="$(date)" git commit --author="Gary Kim <gary@garykim.dev>" --no-edit --amend --date "$(date)"
+      - git -c "credential.helper=/bin/sh /status.garykim.dev/scripts/gitcredentials.sh" push --force
     environment:
       GIT_PASSWORD:
         from_secret: GITHUB_TOKEN
       GIT_USERNAME: gary-kim-bot
-      GIT_TERMINAL_PROMPT: 1
+      GIT_COMMITTER_NAME: gary-kim-bot
+      GIT_COMMITTER_EMAIL: bot@garykim.dev
     when:
       branch:
         - master
