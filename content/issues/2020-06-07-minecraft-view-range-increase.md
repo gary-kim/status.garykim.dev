@@ -3,7 +3,7 @@ title: "Minecraft: Turtle Server View Range Increase"
 date: "2020-06-08T12:00:00+08:00"
 resolved: false
 resolvedWhen: "2020-06-08T12:10:00+08:00"
-# severity: down
+severity: down
 affected:
   - "Minecraft: Turtle Server"
 section: issue
