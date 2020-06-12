@@ -1,9 +1,9 @@
 ---
 title: "Minecraft: Turtle Server Plugin Change"
-date: "2020-06-12T00:00:00+08:00"
-resolved: false
-resolvedWhen: "2020-06-12T00:05:00+08:00"
-# severity: down
+date: "2020-06-13T01:25:00+08:00"
+resolved: true
+resolvedWhen: "2020-06-13T01:30:00+08:00"
+severity: down
 affected:
   - "Minecraft: Turtle Server"
 section: issue
@@ -13,4 +13,4 @@ We are going to be changing the configuration of Core Protect. Block and transac
 
 While, strictly speaking, we could reload without restarting the server, we are going to do a full server restart to follow best practices.
 
-The restart is scheduled for **{{< htrack "2020-06-12T00:00:00+08:00" >}}** and the expected downtime is 5 minutes.
+The restart is scheduled for **{{< htrack "2020-06-13T01:25:00+08:00" >}}** and the expected downtime is 5 minutes.
