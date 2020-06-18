@@ -1,8 +1,8 @@
 ---
 title: "Update PaperMC Server"
 date: "2020-06-18T23:00:00+08:00"
-resolved: false
-resolvedWhen: "2020-06-18T23:05:00+08:00"
+resolved: true
+resolvedWhen: "2020-06-18T23:03:00+08:00"
 severity: down
 affected:
   - "Minecraft: Turtle Server"
