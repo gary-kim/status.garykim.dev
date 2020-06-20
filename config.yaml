@@ -65,6 +65,9 @@ params:
     - name: "Nextcloud Talk High Performance Backend"
       category: Gamma Server
       description: "Nextcloud Talk HPB connected to multiple Nextcloud instances (spreedbackend.garykim.dev)"
+    - name: "Matterbridge Instance"
+      category: Gamma Server
+      description: "Matterbridge instance for syncing many different messaging systems"
     - name: "Gary Kim: Cloud"
       category: Sigma Server
       description: "Nextcloud (https://cloud.garykim.dev)"
