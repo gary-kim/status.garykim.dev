@@ -3,7 +3,7 @@ title: "Minecraft: Turtle Server Migration"
 date: "2020-07-21T16:00:00+08:00"
 resolved: false
 resolvedWhen: "2020-07-21T16:00:00+08:00"
-#severity: down
+severity: down
 affected:
   - "Minecraft: Turtle Server"
 section: issue
