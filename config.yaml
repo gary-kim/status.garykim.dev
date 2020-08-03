@@ -44,6 +44,9 @@ params:
     - name: "Minecraft: Turtle Server"
       category: Gamma Server
       description: "Minecraft: Turtle Server (mc.garykim.dev)"
+    - name: "Minecraft: Cooper Union Modded Server"
+      category: Gamma Server
+      description: "Modded Minecraft server for Cooper Union students"
     - name: "Proprietary Drone CI for GitHub"
       category: Gamma Server
       description: "Proprietary Drone CI instance connected to GitHub (https://ghdrone.garykim.dev)"
