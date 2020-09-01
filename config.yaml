@@ -47,6 +47,9 @@ params:
     - name: "Minecraft: Cooper Union Modded Server"
       category: Gamma Server
       description: "Modded Minecraft server for Cooper Union students"
+    - name: "Minecraft: Cooper Union Vanilla Server"
+      category: Gamma Server
+      description: "Vanilla Minecraft server for Cooper Union students"
     - name: "Proprietary Drone CI for GitHub"
       category: Gamma Server
       description: "Proprietary Drone CI instance connected to GitHub (https://ghdrone.garykim.dev)"
@@ -72,7 +75,7 @@ params:
       category: Gamma Server
       description: "Matterbridge instance for syncing many different messaging systems"
     - name: "Gary Kim: Cloud"
-      category: Sigma Server
+      category: Gamma Server
       description: "Nextcloud (https://cloud.garykim.dev)"
   dateFormat: 2006-01-02T15:04:05Z07:00
   shortDateForamt: 2006-01-02T15:04:05Z07:00
