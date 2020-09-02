@@ -38,8 +38,6 @@ params:
   categories:
     - name: Gamma Server
       description: Services hosted on Gamma server
-    - name: Sigma Server
-      description: Services hosted on Sigma server
   systems:
     - name: "Minecraft: Turtle Server"
       category: Gamma Server
