@@ -10,6 +10,10 @@ section: issue
 informational: false
 ---
 
+### {{< htrack "2020-09-03T17:45:00-04:00" >}}
+
+Check out [this page]({{< relref "2020-09-03-cu-modded-sevtech" >}}) for information regarding the new modpack.
+
 ### {{< htrack "2020-09-02T16:15:00-04:00" >}}
 
 The message of the day on the server has been changed to let all players know of the scream test.
