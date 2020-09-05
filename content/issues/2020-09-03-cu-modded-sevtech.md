@@ -1,14 +1,18 @@
 ---
 title: "Minecraft: Cooper Union Modded Server Switch to Sevtech"
-date: "2020-09-03T17:39:56-04:00"
-resolved: false
-resolvedWhen: "2020-09-03T17:39:56-04:00"
+date: "2020-09-05T14:00:00-04:00"
+resolved: true
+resolvedWhen: "2020-09-05T14:00:00-04:00"
 #severity: down
 affected:
   - "Minecraft: Cooper Union Modded Server"
 section: issue
-informational: false
+informational: true
 ---
+
+### {{< htrack "2020-09-05T14:00:00-04:00" >}}
+
+The switch was done earlier then previously planned. The server is now online.
 
 ### {{< htrack "2020-09-05T11:30:00-04:00" >}}
 
