@@ -1,0 +1,28 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><link rel="alternate" type="text/html" href="https://status.garykim.dev"/><title>Minecraft: Cooper Union Modded Server on garykim.dev Status Page</title><link>https://status.garykim.dev/affected/minecraft-cooper-union-modded-server/</link><description>Incident history</description><generator>github.com/cstate</generator><lastBuildDate>2020-09-05T14:00:00-04:00</lastBuildDate><updated>2020-09-05T14:00:00-04:00</updated><copyright>&lt;p>© 2020-2021 Gary Kim &amp;lt;&lt;a href="mailto:gary@garykim.dev" rel="nofollow">gary@garykim.dev&lt;/a>&amp;gt;&lt;/p></copyright><atom:link href="https://status.garykim.dev/affected/minecraft-cooper-union-modded-server/index.xml" rel="self" type="application/rss+xml"/><item><title>[Resolved] Minecraft: Cooper Union Modded Server Switch to Sevtech</title><link>https://status.garykim.dev/issues/2020-09-03-cu-modded-sevtech/</link><pubDate>Sat, 05 Sep 2020 14:00:00 -0400</pubDate><guid>https://status.garykim.dev/issues/2020-09-03-cu-modded-sevtech/</guid><category>2020-09-05T14:00:00-04:00</category><description>Sat, 05 Sep 2020 14:00:00 -0400 The switch was done earlier then previously planned. The server is now online.
+Sat, 05 Sep 2020 11:30:00 -0400 The server will be switching over to SevTech Ages at sometime around Sat, 05 Sep 2020 14:00:00 -0400 if everyone has left the server by this point. The process will take around 1 hour.
+Main Info The exact time of the restart is yet to be determined but the modpack to switch to is determined.</description><content type="html">&lt;h3 id="hahahugoshortcode-s0-hbhb">&lt;span class="faded" title='2020-09-05T14:00:00-04:00'>Sat, 05 Sep 2020 14:00:00 -0400&lt;/span>
+&lt;/h3>
+&lt;p>The switch was done earlier then previously planned. The server is now online.&lt;/p>
+&lt;h3 id="hahahugoshortcode-s1-hbhb">&lt;span class="faded" title='2020-09-05T11:30:00-04:00'>Sat, 05 Sep 2020 11:30:00 -0400&lt;/span>
+&lt;/h3>
+&lt;p>The server will be switching over to SevTech Ages at sometime around &lt;span class="faded" title='2020-09-05T14:00:00-04:00'>Sat, 05 Sep 2020 14:00:00 -0400&lt;/span>
+if everyone has left the server by this point. The process will take around 1 hour.&lt;/p>
+&lt;h3 id="main-info">Main Info&lt;/h3>
+&lt;p>The exact time of the restart is yet to be determined but the modpack to switch to is determined. &lt;strong>drumroll please&lt;/strong>&lt;/p>
+&lt;h4 id="sevtech-ages">Sevtech Ages!&lt;/h4>
+&lt;p>As long as no one objects, we will be switching over the Cooper Union Modded Minecraft server to Sevtech at some undetermined time after &lt;span class="faded" title='2020-09-05T12:00:00-04:00'>Sat, 05 Sep 2020 12:00:00 -0400&lt;/span>
+. The FTB Revelation server is now in a &lt;a href="https://status.garykim.dev/issues/2020-09-31-cu-modded-revelation-scream/">1 week scream test period&lt;/a>.&lt;/p></content></item><item><title>Minecraft: Cooper Union Modded Server (FTB Revelation) Scream Test</title><link>https://status.garykim.dev/issues/2020-09-31-cu-modded-revelation-scream/</link><pubDate>Tue, 01 Sep 2020 12:00:00 -0400</pubDate><guid>https://status.garykim.dev/issues/2020-09-31-cu-modded-revelation-scream/</guid><category>2020-07-21T16:30:00+08:00</category><description>Sat, 05 Sep 2020 12:00:00 -0400 Scream test complete. Server is officially down. A world file download is provided for players that would like to continue playing.
+Thu, 03 Sep 2020 17:45:00 -0400 Check out this page for information regarding the new modpack.
+Wed, 02 Sep 2020 16:15:00 -0400 The message of the day on the server has been changed to let all players know of the scream test.</description><content type="html">&lt;h3 id="hahahugoshortcode-s0-hbhb">&lt;span class="faded" title='2020-09-05T12:00:00-04:00'>Sat, 05 Sep 2020 12:00:00 -0400&lt;/span>
+&lt;/h3>
+&lt;p>Scream test complete. Server is officially down. A world file download is provided for players that would like to continue playing.&lt;/p>
+&lt;h3 id="hahahugoshortcode-s1-hbhb">&lt;span class="faded" title='2020-09-03T17:45:00-04:00'>Thu, 03 Sep 2020 17:45:00 -0400&lt;/span>
+&lt;/h3>
+&lt;p>Check out &lt;a href="https://status.garykim.dev/issues/2020-09-03-cu-modded-sevtech/">this page&lt;/a> for information regarding the new modpack.&lt;/p>
+&lt;h3 id="hahahugoshortcode-s3-hbhb">&lt;span class="faded" title='2020-09-02T16:15:00-04:00'>Wed, 02 Sep 2020 16:15:00 -0400&lt;/span>
+&lt;/h3>
+&lt;p>The message of the day on the server has been changed to let all players know of the scream test.&lt;/p>
+&lt;p>Starting at &lt;span class="faded" title='2020-09-05T12:00:00-04:00'>Sat, 05 Sep 2020 12:00:00 -0400&lt;/span>
+, the server will stop allowing players to join.&lt;/p>
+&lt;h3 id="entering-scream-test">Entering Scream Test&lt;/h3>
+&lt;p>There is a plan currently being considered to change the modpack being used for the modded server. In order to work towards this goal, the current FTB Revelations modpack will be brought down after an indeterminate amount of time. &lt;strong>Please make some noise on the Discord server if you are still actively playing on the server (or send an email to &lt;a href="mailto:gary@garykim.dev">gary@garykim.dev&lt;/a> if you don&amp;rsquo;t have Discord).&lt;/strong>&lt;/p></content></item></channel></rss>
