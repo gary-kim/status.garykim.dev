@@ -32,12 +32,15 @@ outputFormats:
     isPlainText: true
     mediaType: image/svg+xml
 
-copyright: '<p>© 2020 Gary Kim &lt;<a href="mailto:gary@garykim.dev" rel="nofollow">gary@garykim.dev</a>&gt;</p>'
+copyright: '<p>© 2020-2021 Gary Kim &lt;<a href="mailto:gary@garykim.dev" rel="nofollow">gary@garykim.dev</a>&gt;</p>'
 
 params:
   categories:
     - name: Gamma Server
       description: Services hosted on Gamma server
+    - name: Deprecated and Offline
+      description: Services that are now deprecated and offline.
+      closed: true
   systems:
     - name: "Minecraft: Turtle Server"
       category: Gamma Server
@@ -46,7 +49,7 @@ params:
       category: Gamma Server
       description: "Modded Minecraft server for Cooper Union students"
     - name: "Minecraft: Cooper Union Vanilla Server"
-      category: Gamma Server
+      category: Deprecated and Offline
       description: "Vanilla Minecraft server for Cooper Union students"
     - name: "Proprietary Drone CI for GitHub"
       category: Gamma Server
@@ -72,9 +75,24 @@ params:
     - name: "Matterbridge Instance"
       category: Gamma Server
       description: "Matterbridge instance for syncing many different messaging systems"
+    - name: "Imposter (Among Us Multiplayer Server)"
+      category: Gamma Server
+      description: "Self-Hosted Imposter (Among Us Multiplayer Server) instance (amongus.garykim.dev)"
     - name: "Gary Kim: Cloud"
       category: Gamma Server
       description: "Nextcloud (https://cloud.garykim.dev)"
+    - name: "Restreamer (Livestreams)"
+      category: Gamma Server
+      description: "Restreamer instance for livestreams"
+    - name: "Speed Test"
+      category: Gamma Server
+      description: "Librespeed instance (https://speedtest.garykim.dev)"
+    - name: "Gary Kim: Knowledge Base"
+      category: Gamma Server
+      description: "Self-hosted Wiki.js instance used as a personal knowledge base (https://wiki.garykim.dev)"
+    - name: "analytics.garykim.dev"
+      category: Gamma Server
+      description: "Self-hosted Matomo instance for metrics tracking"
   dateFormat: 2006-01-02T15:04:05Z07:00
   shortDateForamt: 2006-01-02T15:04:05Z07:00
 
